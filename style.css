@@ -111,3 +111,24 @@ a{
 h1{
     text-align: center;
 }
+@media screen and (max-width: 1310px) {
+    #menu_Button{
+        display: none;
+    }
+    #Website_Name{
+        flex: 9;
+    }
+    
+}
+
+@media screen and (max-width: 870px) {
+    #Website_Name{
+        flex: 3;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #Website_Name{
+        flex: 2;
+    }
+}
